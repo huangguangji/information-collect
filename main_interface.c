@@ -58,12 +58,9 @@ int computing_time(int i)
 
 		while (getchar() != '\n');
 
-		if (num == '1')
-		{
+		if (num == '1') {
 			play_time(i);
-		}
-
-		else if (num == '2')
+		} else if (num == '2')
 		{
 			learn_time(i);
 		}
